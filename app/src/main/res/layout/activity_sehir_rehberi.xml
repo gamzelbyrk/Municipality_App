@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#cfd8dc"
+    android:layout_height="match_parent"
+    tools:context=".sehir_rehberi_activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            
+            android:background="#78909c">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:id="@+id/barcinimg"
+                android:layout_height="match_parent"
+
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BARÇIN YAYLASI"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/barcinbutton"
+                android:text="Konumu Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#455a64">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:id="@+id/ermenekvadirsm"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ERMENEK VADİSİ"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ermenebutton"
+                android:text="Konumu Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#78909c">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:id="@+id/ermenekbarajrsm"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ERMENEK BARAJI"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ermenekbarajbutton"
+                android:text="Konumu Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#455a64">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:id="@+id/incesuimg"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+               />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İNCESU MAĞARASI"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/incesumgrabutton"
+                android:text="Konumu Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#78909c">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:id="@+id/karamankalesiimg"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KARAMAN KALESİ"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kalebutton"
+                android:text="Konumu Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#455a64">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:id="@+id/kuguluparkimg"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KUĞULU PARK"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kugulubutton"
+                android:text="Konumu Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#78909c">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:id="@+id/yenidunyaimg"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YENİ DÜNYA M."
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/yenidunyabutton"
+                android:text="Konumu Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#455a64">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:id="@+id/gokceimg"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GÖKÇE ÇAMLIĞI"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gokcebutton"
+                android:text="Konumu Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

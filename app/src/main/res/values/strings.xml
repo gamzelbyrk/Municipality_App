@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Karaman Belediyesi</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="başlik">KARAMAN</string>
+    <string name="açılama">
+
+    </string>
+    <string name="title_activity_harita">Map</string>
+    <string name="title_activity_ermenek_vadisi">Map</string>
+    <string name="title_activity_main3">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_trafik_durumu">Map</string>
+    <string name="title_activity_pazarlar">Map</string>
+    <string name="title_activity_pazar">Map</string>
+    <string name="title_activity_toptanci">Map</string>
+    <string name="title_activity_avm_konum">Map</string>
+    <string name="title_activity_kafeler_konum">Map</string>
+
+</resources>

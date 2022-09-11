@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mainapp">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/circle_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mainapp">
+        <activity android:name=".fatura_odeme_Activity"></activity>
+        <activity android:name=".e_belediye_islemler_Activity" />
+        <activity android:name=".kayit_Activity" />
+        <activity android:name=".giris_Activity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".kafeler_konum_Activity"
+            android:label="@string/title_activity_kafeler_konum" />
+        <activity
+            android:name=".avm_konum_Activity"
+            android:label="@string/title_activity_avm_konum" />
+        <activity
+            android:name=".toptanci_Activity"
+            android:label="@string/title_activity_toptanci" />
+        <activity
+            android:name=".pazar_Activity"
+            android:label="@string/title_activity_pazar" />
+        <activity android:name=".alisveris_kategoriler_Activity" />
+        <activity android:name=".layout_bottom_sheet_Activity" />
+        <activity android:name=".belge_ornek_Activity" />
+        <activity android:name=".sehir_rehberi_kategoriler_Activitiy" />
+        <activity android:name=".nobetci_eczane_Activity" />
+        <activity
+            android:name=".MainActivity3"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/Theme.Mainapp.NoActionBar" />
+        <activity android:name=".MainActivity2" />
+        <activity
+            android:name=".ermenek_vadisi_Activity"
+            android:label="@string/title_activity_ermenek_vadisi" />
+        <activity
+            android:name=".harita_activity"
+            android:label="@string/title_activity_harita" />
+        <activity android:name=".popactivity">
+            android:theme="@style/Theme.PopMe"
+        </activity>
+        <activity android:name=".fotoActivity" />
+        <activity android:name=".muzeActivity" />
+        <activity android:name=".yoreselActivity" />
+        <activity android:name=".tarihActivity" />
+        <activity
+            android:name=".oneri_activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ulasim_activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".kultur_activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".e_belediye_activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".sehir_rehberi_activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".belediye_activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".guncel_activity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

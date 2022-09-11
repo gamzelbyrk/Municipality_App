@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".e_belediye_activity">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="34dp"
+            android:text="HOŞ GELDİNİZ"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="300dp"
+            android:id="@+id/firstgirisbutton"
+            android:layout_height="50dp"
+            android:backgroundTint="#9CB4CC"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="GİRİŞ YAP"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+        <Button
+            android:layout_width="300dp"
+            android:id="@+id/firstkayitbutton"
+            android:layout_height="50dp"
+            android:backgroundTint="#9CB4CC"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="KAYIT OL"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+
+</LinearLayout>
+
+
+

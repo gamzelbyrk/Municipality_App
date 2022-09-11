@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#cfd8dc"
+    android:layout_height="match_parent"
+    tools:context=".yoreselActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#78909c">
+
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/food"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ARABAŞI"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/arabasibutton"
+                android:text="Tarifi Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#455a64">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/food" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BATIRIK"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/batirikbutton"
+                android:text="Tarifi Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#78909c">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/food"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BILDIRCIN DOLMASI"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bildircinbutton"
+                android:text="Tarifi Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#455a64">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/food" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALLA YEMEĞİ"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/callabutton"
+                android:text="Tarifi Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#78909c">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/food"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ÇULLAMA"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cullamabutton"
+                android:text="Tarifi Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#455a64">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/food" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DOMATES DOLMASI"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dmtdolmasibutton"
+                android:text="Tarifi Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="15dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#78909c">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/food"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EĞEY DOLMASI"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/egydlmsibutton"
+                android:text="Tarifi Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#455a64">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/food" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ERMENEK HELVASI"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ermnkhelvasibutton"
+                android:text="Tarifi Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#78909c">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/food"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İLİSIRA DOLMASI"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ilisirabutton"
+                android:text="Tarifi Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#455a64">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/food" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOKUR TATLISI"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lokurbutton"
+                android:text="Tarifi Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#78909c">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/food"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TÖĞMEKEN"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/togmekenbutton"
+                android:text="Tarifi Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="#455a64">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/food" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOYGA ÇORBASI"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ltoygabutton"
+                android:text="Tarifi Görün"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

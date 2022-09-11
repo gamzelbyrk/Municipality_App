@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".giris_Activity">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="GİRİŞ YAPIN"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:id="@+id/girisemail"
+        android:background="#F9F3E3"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+       android:layout_gravity="center"
+        android:hint="e-mail:"
+        android:textColorHint="#9CB4CC"
+
+        />
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:id="@+id/girissifre"
+        android:background="#F9F3E3"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:hint="Şifre:"
+        android:textColorHint="#9CB4CC"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="300dp"
+        android:onClick="GirisYap"
+        android:layout_height="50dp"
+        android:backgroundTint="#9CB4CC"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="GİRİŞ YAP"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        tools:ignore="OnClick" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="150dp"
+        android:onClick="fp"
+        android:id="@+id/btn_fppin"
+        android:layout_height="50dp"
+        android:backgroundTint="#9CB4CC"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="PARMAK İZİ"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/heabimyoktext"
+        android:clickable="true"
+        android:layout_height="wrap_content"
+        android:text="Henüz Bir Hesabınız yok mu?"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="#354259"
+
+        />
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#cfd8dc"
+    android:layout_height="match_parent"
+    tools:context=".sehir_rehberi_activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İDARİ KADROMUZ"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="1dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="false"
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="80dp"
+            android:layout_marginLeft="130dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/logo" />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="#78909c">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/man"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Savaş Kalaycı"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/barcinbutton"
+                android:text="BELEDİYE BAŞKANI"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:background="#455a64">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/man" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ahmet Ünverir"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ermenebutton"
+                android:text="BELEDİYE BAŞKAN YRD."
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:background="#78909c">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/woman" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selda Yönel"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ermenekbarajbutton"
+                android:text="BİLGİ İŞLEM MÜDÜRÜ"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:background="#455a64">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/man" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deniz Gürler"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/incesumgrabutton"
+                android:text="HALKLA İLİŞKİLER MD."
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:background="#78909c">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/woman" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seçil Kahya"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kalebutton"
+                android:text="İNSAN KAYNAKLARI MD."
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:background="#455a64">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/woman" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meliha Göktan"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:padding="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kugulubutton"
+                android:text="PARK ve BAHÇELER MD."
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

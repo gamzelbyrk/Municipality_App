@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0bec5"
+    tools:context=".popactivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/arbsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:padding="20dp"
+                android:textSize="16sp"
+                android:text="Karaman’ın bilinen lezzetlerinden biridir. Evlerde veya restoranlarda bulunabilen bir çorba çeşitidir. Türkmenlerden gelerek yaygın bir lezzet olduğu söylenmektedir.
+
+Karaman’da da bulunan yöresel bir lezzet olan bu çorabının adı yemeklerin arasında yemesi sebebiyle ara aşı olarak kullanılırken zamanla arabaşı kelimesine dönüşmüştür. Bazı yerlerde arap aşı olarak bile kullanılmaktadır. Konya ve Karaman bölgesinde daha çok tercih edilse de ülkemizin dört bir yanında bu isimle yapılan çorbalar bulunmaktadır. Kış aylarında daha çok tüketilen bir yemek olarak karşımıza çıkar. Bol acılı olarak hazırlanması bunun sebepleri arasında yer almaktadır.
+
+Türkmenlere has olarak üretilen bu çorba zamanında keklik etiyle yapılırken günümüzde tavuk veya hindi etiyle yapılmaktadır. Arabaşı çorbasının en büyük özelliği muhallebi kıvamında hazırlanan bir hamur ile tüketilmesidir. Çorba yerken bu hamuru çorbaya ilk düşürenin bir sonraki arabaşını yapması gerektiğine inanılır. Bu sayede halk arasında sıcak sohbetlerin ve sosyal ortamların oluşmasının amaçlandığı düşünülmektedir." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
